@@ -62,14 +62,35 @@
        </div>
      </div>
 
-  <div class='contact'>
-    <h1>Contact form</h1>
 
-   <form action = 'https://formsubmit.co/maryna.v.shut@gmail.com' method = 'POST'>
-     <input type = 'text' name = "Name" placeholder="Your Name" required>
-     <input type = 'email' name = "Email" placeholder="Email" required>
-     <input type='text' name = '_text' value='https://yourdomain.co/thanks.html'>
-     <textarea name = 'Message' placeholder="Message" requiered> </textarea>
+<div class="contact-sidebar">
+<h3>Contact me</h3>
+
+<div class = 'contact-icon'><img src="images/loc.png" width="40" height="40" style.margin='20'> Barcelona</div>
+
+<div class = 'contact-icon'><img src="images/email.png" width="40" height="40"> maryna.v.shut@gmail.com</div>
+
+
+
+
+
+<div class="cv">
+
+<a class="cv_link" onclick="window.open('Maryna_Shut_CV.pdf')"> Download my CV</a>
+
+</div>
+
+</div>
+
+  <div class='contact'>
+
+   <form action = 'https://formsubmit.co/el/susaca' method = 'POST'>
+     <input type = 'text' name = "Name" placeholder="Name" class = 'contact-form' required>
+     <input type = 'email' name = "Email" placeholder="Email" class = 'contact-form' required>
+     <input type='hidden' name = '_text' value='https://yourdomain.co/thanks.html'>
+     <textarea name = 'Message' placeholder="Message" class = 'contact-form' requiered>
+     </textarea>
+
      <button type = 'submit'> Send </button>
 
    </form>
