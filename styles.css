@@ -104,7 +104,7 @@ body{
 
 .cv{
   width: 50%;
-  height: 6%;
+  height: 1%;
   margin-left: 3%;
   position: absolute;
 
@@ -115,7 +115,7 @@ body{
    background:none;
    border:none;
    margin:0;
-   padding:0;
+   padding:10%;
    cursor: pointer;
 }
 
@@ -253,20 +253,15 @@ a:active { text-decoration: none; }
 }
 
 
-.contact-icon{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .contact{
   position: fixed;
-  margin-left: 20%;
-  margin-top: 15%;
-  height: 36%;
-  width: 45%;
+  margin-left: 380px;
+  margin-top: 180px;
+  height: 360px;
+  width: 900px;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
-  padding: 10%;
+  padding: 30px;
 
 }
 
@@ -274,14 +269,14 @@ a:active { text-decoration: none; }
   color:white;
   font-family: Bebas Neue;
   font-weight:500;
-  font-size: 80%;
-  border-radius: 10%;
-  line-height: 30%;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
   background-color: transparent;
-  border:5% solid #CC6666;
+  border:2px solid #CC6666;
   transition: all 0.3s;
-  padding: 1%;
-  margin-bottom: 15%;
+  padding: 13px;
+  margin-bottom: 15px;
   width:100%;
   box-sizing: border-box;
   outline:0;
