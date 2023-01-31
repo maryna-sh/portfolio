@@ -36,6 +36,13 @@
 
 /* social links on top right */
 
+.social{
+  margin-top: -15px;
+  width:auto;
+  margin-left: 85%;
+  /* position: fixed; */
+}
+
 .socials{
   margin: 0 20px;
   /* margin-left: 1000px; */
@@ -45,12 +52,6 @@
 
 }
 
-.social{
-  margin-top: -15px;
-  width:auto;
-  margin-left: 85%;
-  /* position: fixed; */
-}
 
 .socials:hover{
   background-color: rgb(62,166,166);
