@@ -37,8 +37,8 @@
 
 .socials{
   margin: 0 20px;
-  /* margin-left: 1000px; */
-
+  position: relative;
+  text-align: center;
   display: inline-block;
 
 }
@@ -226,9 +226,7 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
-/* .foot_print{
-  font-family: sans-serif;
-} */
+
 
 /* ---------- Portfolio section --------- */
 
