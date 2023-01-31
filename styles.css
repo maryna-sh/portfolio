@@ -283,6 +283,7 @@ a:active { text-decoration: none; }
   transition: all 0.3s;
   padding: 2%;
   margin-bottom: 1%;
+  height: 80%;      
   width:100%;
   box-sizing: border-box;
   outline:0;
