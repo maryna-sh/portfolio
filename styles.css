@@ -40,13 +40,12 @@
   margin-top: -15px;
   width:auto;
   margin-left: 85%;
-  /* position: fixed; */
+ 
 }
 
 .socials{
   margin: 0 20px;
-  /* margin-left: 1000px; */
-  position: relative;
+  position: fixed;
   text-align: center;
   display: inline-block;
 
