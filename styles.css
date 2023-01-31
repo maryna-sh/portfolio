@@ -1,5 +1,5 @@
 
-/*   Website created by Maryna Shut 2022  */
+/*   Website created by Maryna Shut 2023  */
 
         /* color palette */
 /* background-violet: RGB(26,28,37); */
@@ -253,7 +253,7 @@ a:active { text-decoration: none; }
   color: white;
   font-family: Bebas Neue;
   margin-left: 90px;
-  margin-top: 150px;
+  margin-top: 250px;
   width: 400px;
   font-size: 1.125rem;
   height:20%;
@@ -263,14 +263,15 @@ a:active { text-decoration: none; }
 
 .contact-icon{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .contact{
   position: fixed;
-  margin-left: 360px;
+  margin-left: 380px;
   margin-top: 180px;
   height: 360px;
-  width: 850px;
+  width: 900px;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
   padding: 30px;
@@ -279,7 +280,7 @@ a:active { text-decoration: none; }
 
 .contact-form {
   color:white;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Bebas Neue;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
@@ -303,7 +304,7 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: Tomorrow, sans-serif;
   width: 100%;
   background:#CC6666;
   border-radius:5px;
@@ -315,7 +316,7 @@ textarea {
   padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
+  font-weight:400;
 }
 [type="submit"]:hover { background:#CC4949; }
 
@@ -337,4 +338,5 @@ footer{
   width: 96%;
   position: absolute;
   bottom: 0;
+}
 }
