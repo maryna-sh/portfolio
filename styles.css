@@ -261,10 +261,10 @@ a:active { text-decoration: none; }
 
 .contact{
   position: fixed;
-  margin-left: 38%;
+  margin-left: 36%;
   margin-top: 10%;
   height: 38%;
-  width: 45%;
+  width: 55%;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
   padding: 5%;
@@ -283,7 +283,7 @@ a:active { text-decoration: none; }
   transition: all 0.3s;
   padding: 2%;
   margin-bottom: 1%;
-  height: 80%;      
+  height: 98%;      
   width:100%;
   box-sizing: border-box;
   outline:0;
