@@ -261,9 +261,9 @@ a:active { text-decoration: none; }
 
 .contact{
   position: fixed;
-  margin-left: 30%;
-  margin-top: 15%;
-  height: 40%;
+  margin-left: 40%;
+  margin-top: 10%;
+  height: 38%;
   width: 45%;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
