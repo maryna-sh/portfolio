@@ -322,6 +322,6 @@ footer{
   margin-right: 2%;
   margin-top: 50%;
   width: 96%;
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
