@@ -24,19 +24,18 @@
 
 .menu{
 
-  /* position: relative; */
   color: white;
-  margin-top: 20px;
-  margin-left: 24px;
+  margin-top: 2%;
+  margin-left: 3%;
   width: auto;
-  height: 20px;
+  height: 2%;
 }
 
 
 /* social links on top right */
 
 .socials{
-  margin: 0 20px;
+  margin: 0 2%;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -44,7 +43,7 @@
 }
 
 .social{
-  margin-top: -15px;
+  margin-top: -2%;
   width:auto;
   margin-left: 85%;
   /* position: fixed; */
@@ -70,8 +69,8 @@ body{
  margin: 0;
  width: 100%;
  min-height: 100%;
- margin: 0px;
- padding: 0px;
+ margin: 0%;
+ padding: 0%;
  overflow-x: hidden;
  background-image: linear-gradient(to right, RGB(51,44,60), RGB(58,45,63), RGB(80,56,70));
  background-color: RGB(51,44,60);
@@ -103,9 +102,9 @@ body{
 }
 
 .cv{
-  width: 110px;
-  height: 30px;
-  margin-left: -5px;
+  width: 10%;
+  height: 3%;
+  margin-left: -5%;
   position: absolute;
 
 }
@@ -123,13 +122,13 @@ body{
 /* background behind name and photo */
 .card{
   position: fixed;
-  margin-left: 360px;
-  margin-top: 180px;
-  height: 360px;
-  width: 920px;
+  margin-left: 20%;
+  margin-top: 18%;
+  height: 36%;
+  width: 60%;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
-  padding: 30px;
+  padding: 10%;
 
 }
 
