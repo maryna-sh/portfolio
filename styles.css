@@ -1,0 +1,340 @@
+
+/*   Website created by Maryna Shut 2022  */
+
+        /* color palette */
+/* background-violet: RGB(26,28,37); */
+/* cyberpunk blue RGB(0,240,255) */
+/* yellow - 235, 187,25 */
+/* for the background 14,10,7 */
+/* blue - rgb(62,166,166) or 71,186,156*/
+/* yellow - rgb(250,222,96); */
+/* corall_1 - rgb(253,183,183) */
+/* corall_2 - rgb(253,75,75) */
+/* rasp - rgb(173,52,52) */
+/* gray - rgb(126,116,116) */
+/* white - 247, 246, 272 */
+
+
+/*  Fonts */
+
+@import URL("https://fonts.google.com/specimen/Bebas+Neue");
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+@import url("https://fonts.google.com/specimen/Stick+No+Bills");
+
+
+
+.menu{
+
+  /* position: relative; */
+  color: white;
+  margin-top: 20px;
+  margin-left: 24px;
+  width: auto;
+  height: 20px;
+}
+
+
+/* social links on top right */
+
+.socials{
+  margin: 0 20px;
+  /* margin-left: 1000px; */
+  position: relative;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.social{
+  margin-top: -15px;
+  width:auto;
+  margin-left: 85%;
+  /* position: fixed; */
+}
+
+.socials:hover{
+  background-color: rgb(62,166,166);
+}
+
+
+h1{
+  margin: 0;
+  color: white;
+}
+h3{
+  margin-top: 20;
+  color:rgb(250,222,96);
+
+}
+
+hr{
+  background-color: rgb(250,222,96);
+}
+
+body{
+ margin: 0;
+ width: 100%;
+ min-height: 100%;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+ background-image: linear-gradient(to right, RGB(51,44,60), RGB(58,45,63), RGB(80,56,70));
+ background-color: RGB(51,44,60);
+}
+
+
+
+/*  vertical yellow line on the left */
+.vl{
+
+  margin-right: 3px;
+  margin-left: 80px;
+  border-left: 1px solid rgb(250,222,96);
+  height: 400px;
+  margin-top: 90px;
+  position: fixed;
+}
+
+
+/* Skills panel on the left */
+.skills{
+  position:absolute;
+  color: white;
+  font-family: Bebas Neue;
+  margin-left: 90px;
+  margin-top: 90px;
+  font-size: 1.125rem;
+  height:80%;
+}
+
+.cv{
+  width: 110px;
+  height: 30px;
+  margin-left: -5px;
+  position: absolute;
+
+}
+
+ a.cv_link{
+   color:white;
+   background:none;
+   border:none;
+   margin:0;
+   padding:0;
+   cursor: pointer;
+}
+
+
+/* background behind name and photo */
+.card{
+  position: fixed;
+  margin-left: 360px;
+  margin-top: 180px;
+  height: 360px;
+  width: 920px;
+  -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+  box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
+  padding: 30px;
+
+}
+
+/* My name and profession in the center */
+.name{
+  text-align: center;
+  position: fixed;
+  margin-left: 180px;
+  margin-top: 120px;
+  display: inline-block;
+  font-family: Bebas Neue;
+  font-size: 1.25rem;
+}
+
+/* My photo on the right */
+.photo_main{
+  position: fixed;
+  width: 100px;
+  margin-left: 530px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* button in the menu */
+
+:root {
+  --yellow-color: rgb(250,222,96);
+  --red-color: #ff003c;
+  --black-color: #050a0e;
+  --blue-color: #00f0ff;
+}
+
+
+.btn {
+  width: 180px;
+  height: 32px;
+  margin: -1px;
+  background-color: var(--black-color);
+  background-color: var(--yellow-color);
+  /* margin: -2px; */
+  border: 1px;
+  bo
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+  /* color: var(--black-color); */
+  clip-path: polygon(0% 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+a{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  /* background-color: var(--yellow-color); */
+  /* clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0); */
+
+}
+
+
+
+a:hover{
+  color: rgb(62,166,166);
+}
+
+.btn:hover{
+  background-color: RGB(51,44,60);
+}
+
+
+.socials img:nth-child(2) {
+  display: none;
+}
+
+.socials:hover img:nth-child(1) {
+  display: none;
+}
+
+
+.socials:hover img:nth-child(2) {
+  display: block;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/* .foot_print{
+  font-family: sans-serif;
+} */
+
+/* ---------- Portfolio section --------- */
+
+
+
+
+
+/* ----------- end of portfolio section -------  */
+
+
+
+/*   Contact form  */
+
+
+.contact-sidebar{
+  position:absolute;
+  color: white;
+  font-family: Bebas Neue;
+  margin-left: 90px;
+  margin-top: 150px;
+  width: 400px;
+  font-size: 1.125rem;
+  height:20%;
+  display: inline-block;
+}
+
+
+.contact-icon{
+  margin-top: 20px;
+}
+
+.contact{
+  position: fixed;
+  margin-left: 360px;
+  margin-top: 180px;
+  height: 360px;
+  width: 850px;
+  -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+  box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
+  padding: 30px;
+
+}
+
+.contact-form {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.contact-form:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+
+
+
+/*  end of  Contact form  */
+
+
+footer{
+  font-family: Stick No Bills sans-serif;
+  color:rgb(0,116,116);
+  font-size: .9375rem;
+  /* margin-top: 730px; */
+  margin-left: 2%;
+  margin-right: 2%;
+  /* margin-top: 730px; */
+  margin-top: 50%;
+  width: 96%;
+  position: absolute;
+  bottom: 0;
+}
