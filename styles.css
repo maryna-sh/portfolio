@@ -214,6 +214,19 @@ a:hover{
 
 
 
+.socials img:nth-child(2) {
+  display: none;
+}
+
+.socials:hover img:nth-child(1) {
+  display: none;
+}
+
+
+.socials:hover img:nth-child(2) {
+  display: block;
+}
+
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
