@@ -253,6 +253,10 @@ a:active { text-decoration: none; }
   display: inline-block;
 }
 
+.contact-icon{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 .contact{
   position: fixed;
@@ -320,7 +324,7 @@ footer{
   font-size: .9375rem;
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 50%;
+  margin-top: 90%;
   width: 96%;
   position: relative;
   bottom: 0;
