@@ -5,6 +5,7 @@
     <title>Maryna Shut</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico">
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="menu">
@@ -73,7 +74,7 @@
          <!-- first item -->
 
 
-        <div class="portfolio-item" id="item3">
+        <div class="portfolio-item" id="item1">
           <h3 class = 'pr-name'>Poverty in the US</h3>
           <img src="https://user-images.githubusercontent.com/114282706/210793151-4c3a4dba-3b5b-4250-bbae-00bb113ec08d.gif" class="portfolio-image">
           <div class="portfolio-description">
@@ -90,7 +91,7 @@
 
        <!-- second item -->
 
-            <div class="portfolio-item">
+            <div class="portfolio-item" id="item2">
               <h3 class = 'pr-name'>Logistic regression analysis: breast cancer</h3>
               <img src="log-breast.png" class="portfolio-image">
               <div class="portfolio-description">
@@ -107,7 +108,7 @@
 
 
 
-          <div class="portfolio-item">
+          <div class="portfolio-item" id="item3">
             <h3 class = 'pr-name'>Data analysis with R: greatest musicians</h3>
             <img src="elvis.png" class="portfolio-image">
             <div class="portfolio-description">
@@ -121,13 +122,44 @@
 
           <!-- another item -->
 
+  <!-- The Modal -->
+                      <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="item3">
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                      </div>
 
+
+                      <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="item1">
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                      </div>
+
+
+                      <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="item2">
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                      </div>
+
+
+                     
 
 
   </div>
 
                 <!-- end of portfolio -->
-
+<script src="index.js"></script>
 </div>
 
 <footer>
