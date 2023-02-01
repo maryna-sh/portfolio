@@ -121,3 +121,92 @@ document.querySelector("#item7 .portfolio-image").addEventListener("click", func
     document.body.removeChild(imageModal);
   });
 });
+
+
+
+document.querySelector("#item8 .portfolio-image").addEventListener("click", function() {
+  let image = this.cloneNode(true);
+  image.style.width = "100%";
+  image.style.height = "auto";
+
+  let imageModal = document.createElement("div");
+  imageModal.classList.add("modal");
+  imageModal.appendChild(image);
+  imageModal.style.display = "block";
+
+  document.body.appendChild(imageModal);
+
+  imageModal.addEventListener("click", function() {
+    document.body.removeChild(imageModal);
+  });
+});
+
+
+document.querySelector("#item9 .portfolio-image").addEventListener("click", function() {
+  let image = this.cloneNode(true);
+  image.style.width = "100%";
+  image.style.height = "auto";
+
+  let imageModal = document.createElement("div");
+  imageModal.classList.add("modal");
+  imageModal.appendChild(image);
+  imageModal.style.display = "block";
+
+  document.body.appendChild(imageModal);
+
+  imageModal.addEventListener("click", function() {
+    document.body.removeChild(imageModal);
+  });
+});
+
+
+document.querySelector("#item10 .portfolio-image").addEventListener("click", function() {
+  let image = this.cloneNode(true);
+  image.style.width = "100%";
+  image.style.height = "auto";
+
+  let imageModal = document.createElement("div");
+  imageModal.classList.add("modal");
+  imageModal.appendChild(image);
+  imageModal.style.display = "block";
+
+  document.body.appendChild(imageModal);
+
+  imageModal.addEventListener("click", function() {
+    document.body.removeChild(imageModal);
+  });
+});
+
+document.querySelector("#item11 .portfolio-image").addEventListener("click", function() {
+  let image = this.cloneNode(true);
+  image.style.width = "100%";
+  image.style.height = "auto";
+
+  let imageModal = document.createElement("div");
+  imageModal.classList.add("modal");
+  imageModal.appendChild(image);
+  imageModal.style.display = "block";
+
+  document.body.appendChild(imageModal);
+
+  imageModal.addEventListener("click", function() {
+    document.body.removeChild(imageModal);
+  });
+});
+
+document.querySelector("#item12 .portfolio-image").addEventListener("click", function() {
+  let image = this.cloneNode(true);
+  image.style.width = "100%";
+  image.style.height = "auto";
+
+  let imageModal = document.createElement("div");
+  imageModal.classList.add("modal");
+  imageModal.appendChild(image);
+  imageModal.style.display = "block";
+
+  document.body.appendChild(imageModal);
+
+  imageModal.addEventListener("click", function() {
+    document.body.removeChild(imageModal);
+  });
+});
