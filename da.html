@@ -5,6 +5,7 @@
     <title>Maryna Shut</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico">
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="menu">
@@ -75,7 +76,7 @@
 
 
          <!-- second item -->
-        <div class="portfolio-item">
+        <div class="portfolio-item" id="item1">
            <h3 class = 'pr-name'>Google Data Analytics</h3>
           <img src="google.png" class="portfolio-image">
 
@@ -92,12 +93,19 @@
        </div>
 <hr class = 'port-line'>
 
-
+                       <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="item1">
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                      </div>
 
   </div>
 
                 <!-- end of portfolio -->
-
+<script src="index.js"></script>
 </div>
 
 <footer>
