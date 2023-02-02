@@ -575,12 +575,12 @@ textarea {
 
 footer{
   font-family: Stick No Bills sans-serif;
-  color:rgb(0,116,116);
-  font-size: .9375rem;
+  color:rgb(250,222,96);
+  font-size: 75%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 90%;
   width: 96%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
