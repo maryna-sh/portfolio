@@ -390,6 +390,7 @@ background: rgb(246,190,0);
   padding: 1%;
   overflow: scroll;
   margin-right: 6%;
+  cursor: pointer;
 
 }
 
