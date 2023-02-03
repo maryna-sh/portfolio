@@ -69,11 +69,23 @@
       <div class="portfolio-area">
 
 
-
-
-        
+ <!-- another item -->
 
           <div class="portfolio-item" id="item1">
+            <h3 class = 'pr-name'>Life expectation</h3>
+            <img src="life_exp.gif" class="portfolio-image">
+            <div class="portfolio-description">
+
+              <p> Tableau animated dashboard: Life expectation vs fertility rate. </p>
+
+              <a href = 'https://public.tableau.com/app/profile/maryna.shut/viz/Lifeexpectancyvsfertilityrateanimation/Dashboard2?publish=yes' class = 'project-link' target="_blank">See dashboard here</a>
+            </div>
+          </div>
+        <hr class = 'port-line'>
+
+        <!-- another item -->
+
+          <div class="portfolio-item" id="item2">
             <h3 class = 'pr-name'>Crime rate in Spain</h3>
             <img src="crime-rate.png" class="portfolio-image">
             <div class="portfolio-description">
@@ -85,11 +97,24 @@
           </div>
         <hr class = 'port-line'>
         
-        <div id="myModal" class="modal">
+        
+        <!-- Modals -->
+        
+                       <div id="myModal" class="modal">
                         <!-- The Close Button -->
                         <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
                         <!-- Modal Content (The Image) -->
-                        <img class="modal-content" id="item3">
+                        <img class="modal-content" id="item1">
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                      </div>
+        
+        
+                        <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="item2">
                         <!-- Modal Caption (Image Text) -->
                         <div id="caption"></div>
                       </div>
