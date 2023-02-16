@@ -113,7 +113,7 @@ body{
           font-family: Bebas Neue;
           margin-left: 7%;
           margin-top: 5%;
-          font-size: 2vw;    
+          font-size: 3vw;    
  }
 }
 
@@ -246,10 +246,30 @@ body{
   cursor: pointer;
   position: relative;
   font-family: Tomorrow, sans-serif;
-  font-size: 1.2vw;
+  font-size: 1vw;
   text-transform: uppercase;
   /* color: var(--black-color); */
   clip-path: polygon(0% 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+@media screen and (max-width: 800px) {
+  .btn {
+  width: 15%;
+  height: 32px;
+  margin: -1px;
+  background-color: var(--black-color);
+  background-color: var(--yellow-color);
+  /* margin: -2px; */
+  border: 1px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  /* color: var(--black-color); */
+  clip-path: polygon(0% 0, 90% 0, 100% 100%, 0% 100%);
+ }
 }
 
 a{
