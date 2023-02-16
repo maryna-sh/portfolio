@@ -97,7 +97,7 @@ body{
   font-family: Bebas Neue;
   margin-left: 7%;
   margin-top: 5%;
-  font-size: 1.125rem;
+  font-size: 1vw;
   height:80%;
   margin-bottom: 10%;      
 }
@@ -145,11 +145,11 @@ body{
 }
 
 .name h1{
- font-size: 10vw;
+ font-size: 4vw;
 }
 
 .name h3{
- font-size: 8vw;
+ font-size: 3vw;
 }
 
 /* My photo on the right */
