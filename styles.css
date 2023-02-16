@@ -92,29 +92,28 @@ body{
 
 /* Skills panel on the left */
 @media screen and (min-width: 601px){
-.skills{
-  position:absolute;
-  color: white;
-  font-family: Bebas Neue;
-  margin-left: 7%;
-  margin-top: 5%;
-  font-size: 1.4vw;
-  height:80%;
-  margin-bottom: 10%;      
+ .skills{
+          position:absolute;
+          color: white;
+          font-family: Bebas Neue;
+          margin-left: 7%;
+          margin-top: 5%;
+          font-size: 1.4vw;
+          height:80%;
+          margin-bottom: 10%;      
  }
 }
 
 
 
-@media screen and (max-width: 601px){
-.skills{
-  position:absolute;
-  color: white;
-  font-family: Bebas Neue;
-  margin-left: 7%;
-  margin-top: 5%;
-  font-size: 2vw;
-  height:80%;     
+@media screen and (max-width: 600px){
+ .skills{
+          position:absolute;
+          color: white;
+          font-family: Bebas Neue;
+          margin-left: 7%;
+          margin-top: 5%;
+          font-size: 3vw;    
  }
 }
 
@@ -140,17 +139,37 @@ body{
 
 
 /* background behind name and photo */
-.card{
-  position: fixed;
-  margin-left: 30%;
-  margin-top: 10%;
-  height: 23%;
-  width: 45%;
-  -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
-  box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
-  padding: 10%;
+@media screen and (min-width: 601px){
+ .card{
+          position: fixed;
+          margin-left: 30%;
+          margin-top: 10%;
+          height: 23%;
+          width: 45%;
+          -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+          box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
+          padding: 10%;
 
+ }
 }
+
+
+@media screen and (max-width: 600px){
+ .card{
+          position: fixed;
+          margin-left: 30%;
+          margin-top: 10%;
+          height: 18%;
+          width: 45%;
+          -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+          box-shadow: 4px 4px 5px 3px rgba(15, 15, 20, 0.2);
+          padding: 8%;
+
+ }
+}        
+        
+        
+        
 
 /* My name and profession in the center */
 
@@ -175,7 +194,7 @@ body{
 
 
 @media screen and (max-width: 600px) {
-        .name{
+.name{
   text-align: center;
   position: fixed;
   margin-right: 1%;
