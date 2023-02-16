@@ -138,18 +138,18 @@ body{
 .name{
   text-align: center;
   position: fixed;
-  margin-left: 2%;
+  margin-left: 0.5%;
   margin-top: 2%;
   display: inline-block;
   font-family: Bebas Neue;
 }
 
 .name h1{
- font-size: 230%;
+ font-size: 210%;
 }
 
 .name h3{
- font-size: 180%;
+ font-size: 150%;
 }
 
 /* My photo on the right */
