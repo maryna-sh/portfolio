@@ -91,16 +91,34 @@ body{
 
 
 /* Skills panel on the left */
+@media screen and (min-width: 601px){
 .skills{
   position:absolute;
   color: white;
   font-family: Bebas Neue;
   margin-left: 7%;
   margin-top: 5%;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   height:80%;
   margin-bottom: 10%;      
+ }
 }
+
+
+
+@media screen and (max-width: 601px){
+.skills{
+  position:absolute;
+  color: white;
+  font-family: Bebas Neue;
+  margin-left: 7%;
+  margin-top: 5%;
+  font-size: 2vw;
+  height:80%;     
+ }
+}
+
+
 
 .cv{
   width: 100%;
@@ -135,6 +153,8 @@ body{
 }
 
 /* My name and profession in the center */
+
+@media screen and (min-width: 601px){
 .name{
   text-align: center;
   position: fixed;
@@ -150,7 +170,31 @@ body{
 
 .name h3{
  font-size: 2.2vw;
+  }
 }
+
+
+@media screen and (max-width: 600px) {
+        .name{
+  text-align: center;
+  position: fixed;
+  margin-right: 1%;
+  margin-top: 2%;
+  display: inline-block;
+  font-family: Bebas Neue;     
+}
+
+.name h1{
+ font-size: 3.8vw;
+}
+
+.name h3{
+ font-size: 2.4vw;
+ }
+}
+
+
+
 
 /* My photo on the right */
 .photo_main{
