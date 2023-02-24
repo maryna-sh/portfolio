@@ -98,8 +98,8 @@ body{
           font-family: Bebas Neue;
           margin-left: 7%;
           margin-top: 5%;
-          font-size: 1.3vw;
-          height:80%;
+          font-size: 1.1vw;
+          height:75%;
           margin-bottom: 10%;      
  }
 }
@@ -672,6 +672,7 @@ footer{
   margin-right: 2%;
   margin-top: 90%;
   width: 96%;
+  display: block;      
   position: fixed;
   bottom: 0;
 }
